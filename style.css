@@ -1,0 +1,60 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url("Backgrounds/1.jpg");
+	font-family: Impact;
+}
+h1
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	color: #fff;
+}
+ul
+{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ul li
+{
+	list-style: none;
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0 50px;
+	background: rgba(255,255,255,.2);
+	border-radius: 50%;
+	color: #000635;
+	transition: .5s;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+ul li:hover
+{
+	background: #fff;
+	box-shadow: 0 0 200px rgba(255,255,255,1),
+				0 0 210px rgba(255,255,255,1),
+				0 0 220px rgba(255,255,255,1);
+}
+a:link
+{
+	color: inherit;
+	text-decoration: none;
+}
+a:visited
+{
+	color: black;
+}
